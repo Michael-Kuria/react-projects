@@ -1,0 +1,58 @@
+.gt3__cta{
+    display: flex;
+    background: var(--gradient-bar);
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.gt3__cta-content{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    color: #ffff;
+
+}
+
+.gt3__cta p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: var(--font-family);
+}
+
+.gt3__cta h4{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 45px;
+    font-family: var(--font-family);
+
+}
+
+
+
+.gt3__cta button{
+    padding: .5rem 1rem;
+    font-family: var(--font-family);
+    background-color: black;
+    color: #ffff;
+    border: none;
+    border-radius: 500px;
+    cursor: pointer;
+    height: fit-content;
+
+
+    align-self: flex-end;
+}
+
+@media screen  and (max-width: 1000px){
+    .gt3__cta{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .gt3__cta button{
+        align-self: flex-start;
+    }
+    
+}
