@@ -1,0 +1,30 @@
+.gpt3__blog{
+    display: flex;
+    gap: 2rem;
+}
+
+.gpt3__blog-main{
+
+}
+
+.gpt3__blog-next{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+
+@media screen and (max-width: 900px){
+    .gpt3__blog{
+        flex-direction: column-reverse;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__blog-next {
+        grid-template-columns: 1fr;
+
+    }
+    
+}
