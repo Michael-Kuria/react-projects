@@ -18,7 +18,6 @@
     .gpt3__blog{
         flex-direction: column-reverse;
     }
-    
 }
 
 @media screen and (max-width: 550px) {
@@ -26,5 +25,4 @@
         grid-template-columns: 1fr;
 
     }
-    
 }
