@@ -1,9 +1,11 @@
+import SiteHeader from "./components/SiteHeader";
 import TeamProfile from "./components/TeamProfile";
 
 function App() {
   return (
     <main className="h-screen">
-      <TeamProfile />
+      {/* <TeamProfile /> */}
+      <SiteHeader />
     </main>
   );
 }
