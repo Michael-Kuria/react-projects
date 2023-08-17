@@ -1,4 +1,5 @@
 import DeleteModal from "./components/DeleteModal";
+import LinkedInProfile from "./components/LinkedInProfile";
 import SiteHeader from "./components/SiteHeader";
 import SocialMediaProfile from "./components/SocialMediaProfile";
 import TeamProfile from "./components/TeamProfile";
@@ -7,7 +8,8 @@ import WalletBalance from "./components/WalletBalance";
 function App() {
   return (
     <main className="h-screen">
-      <WalletBalance />
+      <LinkedInProfile />
+      {/* <WalletBalance /> */}
       {/* <SocialMediaProfile /> */}
       {/* <DeleteModal /> */}
       {/* <TeamProfile /> */}
