@@ -17,3 +17,7 @@
 .linkedin-btn {
     @apply bg-gray-50 rounded-full flex justify-center py-2 text-blue-500 font-semibold cursor-pointer w-28 hover:bg-gray-100
 }
+
+.send-message-container{
+    @apply flex justify-center items-center gap-1 text-sm cursor-pointer
+}
