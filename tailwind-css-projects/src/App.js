@@ -4,12 +4,14 @@ import SendMessage from "./components/SendMessage";
 import SiteHeader from "./components/SiteHeader";
 import SocialMediaProfile from "./components/SocialMediaProfile";
 import TeamProfile from "./components/TeamProfile";
+import UploadFile from "./components/UploadFile";
 import WalletBalance from "./components/WalletBalance";
 
 function App() {
   return (
     <main className="h-screen">
-      <SendMessage />
+      <UploadFile />
+      {/* <SendMessage /> */}
       {/* <LinkedInProfile /> */}
       {/* <WalletBalance /> */}
       {/* <SocialMediaProfile /> */}
