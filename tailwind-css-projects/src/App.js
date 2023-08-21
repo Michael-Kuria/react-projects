@@ -1,3 +1,4 @@
+import EightInImage from "./components/8InImage";
 import DeleteModal from "./components/DeleteModal";
 import LinkedInProfile from "./components/LinkedInProfile";
 import SendMessage from "./components/SendMessage";
@@ -10,7 +11,8 @@ import WalletBalance from "./components/WalletBalance";
 function App() {
   return (
     <main className="h-screen">
-      <UploadFile />
+      <EightInImage />
+      {/* <UploadFile /> */}
       {/* <SendMessage /> */}
       {/* <LinkedInProfile /> */}
       {/* <WalletBalance /> */}
